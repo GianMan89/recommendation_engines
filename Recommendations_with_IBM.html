@@ -14612,7 +14612,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[70]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -14620,6 +14620,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">project_tests</span> <span class="k">as</span> <span class="nn">t</span>
 <span class="kn">import</span> <span class="nn">pickle</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span>
 
 <span class="o">%</span><span class="k">matplotlib</span> inline
 
@@ -14645,7 +14646,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[70]:</div>
 
 
 
@@ -14720,7 +14721,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Show df_content to get an idea of the data</span>
@@ -14740,7 +14741,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
 
 
 
@@ -14840,7 +14841,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Descriptive statistics</span>
@@ -14860,7 +14861,7 @@ VI. <a href="#conclusions">Extras &amp; Concluding</a></p>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
 
 
 
@@ -14888,7 +14889,7 @@ Name: email, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Visual statistics</span>
@@ -14935,7 +14936,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Fill in the median and maximum number of user_article interactios below</span>
@@ -14966,7 +14967,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Find and explore duplicate articles</span>
@@ -14986,7 +14987,7 @@ class="
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 
 
 
@@ -15073,7 +15074,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Remove any rows that have the same article_id - only keep the first</span>
@@ -15106,7 +15107,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># a. The number of unique articles that have an interaction with a user.</span>
@@ -15126,7 +15127,7 @@ class="
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
 
 
 
@@ -15146,7 +15147,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># b. The number of unique articles in the dataset (whether they have any interactions or not).</span>
@@ -15166,7 +15167,7 @@ class="
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
 
 
 
@@ -15186,7 +15187,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># c. The number of unique users in the dataset. (excluding null values).</span>
@@ -15206,7 +15207,7 @@ class="
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
 
 
 
@@ -15226,7 +15227,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># d. The number of user-article interactions in the dataset.</span>
@@ -15246,7 +15247,7 @@ class="
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[28]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 
 
 
@@ -15266,7 +15267,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">unique_articles</span> <span class="o">=</span> <span class="mi">714</span> <span class="c1"># The number of unique articles that have at least one interaction</span>
@@ -15297,7 +15298,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[62]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">"article_id"</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">index</span><span class="p">[:</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">df</span><span class="p">[</span><span class="s2">"article_id"</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
@@ -15316,7 +15317,7 @@ class="
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[62]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
 
 
 
@@ -15336,7 +15337,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[53]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">most_viewed_article_id</span> <span class="o">=</span> <span class="s2">"1429.0"</span> <span class="c1"># The most viewed article in the dataset as a string with one value following the decimal </span>
@@ -15353,7 +15354,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## No need to change the code here - this will be helpful for later parts of the notebook</span>
@@ -15393,7 +15394,7 @@ class="
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[51]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
 
 
 
@@ -15468,7 +15469,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## If you stored all your results in the variable names above, </span>
@@ -15533,7 +15534,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[68]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_top_articles</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">df</span><span class="o">=</span><span class="n">df</span><span class="p">):</span>
@@ -15575,7 +15576,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[69]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">get_top_articles</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
@@ -15625,7 +15626,7 @@ Name: title, Length: 6551, dtype: object
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[70]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your function by returning the top 5, 10, and 20 articles</span>
@@ -15693,7 +15694,7 @@ Your top_20 looks like the solution list! Nice job.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[78]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># create the user-article matrix with 1's and 0's</span>
@@ -15728,7 +15729,7 @@ Your top_20 looks like the solution list! Nice job.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[79]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Tests: You should just need to run this cell.  Don't change the code.</span>
@@ -15782,7 +15783,7 @@ Your top_20 looks like the solution list! Nice job.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[80]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">find_similar_users</span><span class="p">(</span><span class="n">user_id</span><span class="p">,</span> <span class="n">user_item</span><span class="o">=</span><span class="n">user_item</span><span class="p">):</span>
@@ -15823,7 +15824,7 @@ Your top_20 looks like the solution list! Nice job.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[81]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Do a spot check of your function</span>
@@ -15877,7 +15878,7 @@ The 3 most similar users to user 46 are: Int64Index([4201, 3782, 23], dtype=&#39
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[138]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_article_names</span><span class="p">(</span><span class="n">article_ids</span><span class="p">,</span> <span class="n">df</span><span class="o">=</span><span class="n">df</span><span class="p">):</span>
@@ -15976,7 +15977,7 @@ The 3 most similar users to user 46 are: Int64Index([4201, 3782, 23], dtype=&#39
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[139]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Check Results</span>
@@ -15996,1012 +15997,1012 @@ The 3 most similar users to user 46 are: Int64Index([4201, 3782, 23], dtype=&#39
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[139]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+<pre>[&#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;brunel in jupyter&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;brunel in jupyter&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;using github for project control in dsx&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;awesome deep learning papers&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;brunel in jupyter&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;use sql with data in hadoop python&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;times world university ranking analysis&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;use sql with data in hadoop python&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;use sql with data in hadoop python&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;brunel in jupyter&#39;,
+ &#39;brunel in jupyter&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;times world university ranking analysis&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
+ &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;brunel in jupyter&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;how smart catalogs can turn the big data flood into an ocean of opportunity&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
  &#39;the power of machine learning in spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;using github for project control in dsx&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;use sql with data in hadoop python&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;generalization in deep learning&#39;,
  &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark-based machine learning tools for capturing word meanings&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;the power of machine learning in spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;use decision optimization to schedule league games&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
- &#39;awesome deep learning papers&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;twelve\xa0ways to color a map of africa using brunel&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;learn basics about notebooks and apache spark&#39;,
- &#39;using machine learning to predict parking difficulty&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;intents &amp; examples for ibm watson conversation&#39;,
- &#39;spark 2.1 and job monitoring available in dsx&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;analyze energy consumption in buildings&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;generalization in deep learning&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
+ &#39;healthcare python streaming application demo&#39;,
  ...]</pre>
 </div>
 
@@ -17016,7 +17017,7 @@ The 3 most similar users to user 46 are: Int64Index([4201, 3782, 23], dtype=&#39
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[140]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Test your functions here - No need to change this code - just run this cell</span>
@@ -17078,7 +17079,7 @@ The 3 most similar users to user 46 are: Int64Index([4201, 3782, 23], dtype=&#39
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[184]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_top_sorted_users</span><span class="p">(</span><span class="n">user_id</span><span class="p">,</span> <span class="n">df</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">user_item</span><span class="o">=</span><span class="n">user_item</span><span class="p">):</span>
@@ -17162,20 +17163,26 @@ The 3 most similar users to user 46 are: Int64Index([4201, 3782, 23], dtype=&#39
     <span class="n">recs</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">next_id</span> <span class="ow">in</span> <span class="n">neighbors_df</span><span class="p">[</span><span class="s2">"neighbor_id"</span><span class="p">]:</span>
         <span class="c1"># Get articles viewed by next_user</span>
-        <span class="n">article_ids</span> <span class="o">=</span> <span class="n">user_item</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">next_id</span><span class="p">]</span>
-        <span class="n">recs</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="nb">str</span><span class="p">(</span><span class="n">article_id</span><span class="p">)</span> <span class="k">for</span> <span class="n">article_id</span> <span class="ow">in</span> <span class="n">article_ids</span><span class="p">[</span><span class="n">article_ids</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">])</span>
+        <span class="n">next_article_ids</span> <span class="o">=</span> <span class="n">user_item</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">next_id</span><span class="p">]</span>
+        <span class="n">next_article_ids</span> <span class="o">=</span> <span class="p">[(</span><span class="n">article_id</span><span class="p">)</span> <span class="k">for</span> <span class="n">article_id</span> <span class="ow">in</span> <span class="n">next_article_ids</span><span class="p">[</span><span class="n">next_article_ids</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">]</span>
 
-        <span class="c1"># Unique values</span>
-        <span class="n">recs</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">recs</span><span class="p">))</span>
+        <span class="c1"># Filtered dataframe that contains only those articles that the next_user has read</span>
+        <span class="n">filtered_df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"article_id"</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">next_article_ids</span><span class="p">)]</span>
+        <span class="n">next_article_ids</span> <span class="o">=</span> <span class="n">get_top_article_ids</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">next_article_ids</span><span class="p">),</span> <span class="n">filtered_df</span><span class="p">)</span>
+
+        <span class="c1"># Add articles to recommendation</span>
+        <span class="k">for</span> <span class="n">article_id</span> <span class="ow">in</span> <span class="n">next_article_ids</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">article_id</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">viewed_article_ids</span> <span class="ow">and</span> <span class="n">article_id</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">recs</span><span class="p">:</span>
+                <span class="n">recs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">article_id</span><span class="p">))</span>
 
         <span class="c1"># Breaks if m recommendations are found</span>
         <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">recs</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">m</span><span class="p">:</span>
             <span class="k">break</span>
 
     <span class="c1"># Find unique article names</span>
-    <span class="n">rec_names</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"article_id"</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">float_</span><span class="p">(</span><span class="n">recs</span><span class="p">[:</span><span class="n">m</span><span class="p">]))][</span><span class="s2">"title"</span><span class="p">]))</span>
+    <span class="n">rec_names</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s2">"article_id"</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">float_</span><span class="p">(</span><span class="n">recs</span><span class="p">))][</span><span class="s2">"title"</span><span class="p">]))</span>
     
-    <span class="k">return</span> <span class="n">recs</span><span class="p">[:</span><span class="n">m</span><span class="p">],</span> <span class="n">rec_names</span>
+    <span class="k">return</span> <span class="n">recs</span><span class="p">[:</span><span class="n">m</span><span class="p">],</span> <span class="n">rec_names</span><span class="p">[:</span><span class="n">m</span><span class="p">]</span>
 </pre></div>
 
      </div>
@@ -17188,7 +17195,7 @@ The 3 most similar users to user 46 are: Int64Index([4201, 3782, 23], dtype=&#39
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[185]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Quick spot check - don't change this code - just use it to test your functions</span>
@@ -17218,10 +17225,10 @@ The 3 most similar users to user 46 are: Int64Index([4201, 3782, 23], dtype=&#39
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>The top 10 recommendations for user 20 are the following article ids:
-[&#39;1271.0&#39;, &#39;1296.0&#39;, &#39;727.0&#39;, &#39;1186.0&#39;, &#39;89.0&#39;, &#39;53.0&#39;, &#39;1053.0&#39;, &#39;232.0&#39;, &#39;1320.0&#39;, &#39;981.0&#39;]
+[&#39;1271.0&#39;, &#39;1053.0&#39;, &#39;1296.0&#39;, &#39;1320.0&#39;, &#39;1186.0&#39;, &#39;981.0&#39;, &#39;53.0&#39;, &#39;232.0&#39;, &#39;495.0&#39;, &#39;793.0&#39;]
 
 The top 10 recommendations for user 20 are the following article names:
-[&#39;top 20 r machine learning and data science packages&#39;, &#39;customer demographics and sales&#39;, &#39;fortune 100 companies&#39;, &#39;connect to db2 warehouse on cloud and db2 using scala&#39;, &#39;super fast string matching in python&#39;, &#39;access mysql with python&#39;, &#39;introducing streams designer&#39;, &#39;from python nested lists to multidimensional numpy arrays&#39;, &#39;housing (2015): united states demographic measures&#39;, &#39;self-service data preparation with ibm data refinery&#39;]
+[&#39;top 20 r machine learning and data science packages&#39;, &#39;self-service data preparation with ibm data refinery&#39;, &#39;connect to db2 warehouse on cloud and db2 using scala&#39;, &#39;housing (2015): united states demographic measures&#39;, &#39;from python nested lists to multidimensional numpy arrays&#39;, &#39;introducing streams designer&#39;, &#39;access mysql with python&#39;, &#39;super fast string matching in python&#39;, &#39;top 10 machine learning algorithms for beginners&#39;, &#39;customer demographics and sales&#39;]
 </pre>
 </div>
 </div>
@@ -17247,7 +17254,7 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[186]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Find the user that is most similar to user 1 </span>
@@ -17267,7 +17274,7 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[186]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
 
 
 
@@ -17290,7 +17297,7 @@ Name: 0, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[187]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Find the 10th most similar user to user 131</span>
@@ -17310,7 +17317,7 @@ Name: 0, dtype: int64</pre>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[187]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
 
 
 
@@ -17333,7 +17340,7 @@ Name: 9, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[188]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Tests with a dictionary of results</span>
@@ -17352,7 +17359,7 @@ Name: 9, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[189]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Dictionary Test Here</span>
@@ -17432,7 +17439,7 @@ Name: 9, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[200]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">new_user</span> <span class="o">=</span> <span class="s1">'0.0'</span>
@@ -17452,7 +17459,7 @@ Name: 9, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[202]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">assert</span> <span class="nb">set</span><span class="p">(</span><span class="n">new_user_recs</span><span class="p">)</span> <span class="o">==</span> <span class="nb">set</span><span class="p">([</span><span class="s1">'1314.0'</span><span class="p">,</span><span class="s1">'1429.0'</span><span class="p">,</span><span class="s1">'1293.0'</span><span class="p">,</span><span class="s1">'1427.0'</span><span class="p">,</span><span class="s1">'1162.0'</span><span class="p">,</span><span class="s1">'1364.0'</span><span class="p">,</span><span class="s1">'1304.0'</span><span class="p">,</span><span class="s1">'1170.0'</span><span class="p">,</span><span class="s1">'1431.0'</span><span class="p">,</span><span class="s1">'1330.0'</span><span class="p">]),</span> <span class="s2">"Oops!  It makes sense that in this case we would want to recommend the most popular articles, because we don't know anything about these users."</span>
@@ -17504,7 +17511,7 @@ Name: 9, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">make_content_recs</span><span class="p">():</span>
@@ -17562,7 +17569,7 @@ Name: 9, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># make recommendations for a brand new user</span>
@@ -17594,7 +17601,7 @@ Name: 9, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[203]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Load the matrix here</span>
@@ -17611,7 +17618,7 @@ Name: 9, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[204]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># quick look at the matrix</span>
@@ -17631,7 +17638,7 @@ Name: 9, dtype: int64</pre>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[204]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
 
 
 
@@ -17851,7 +17858,7 @@ Name: 9, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[205]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Perform SVD on the User-Item Matrix Here</span>
@@ -17893,7 +17900,7 @@ Name: 9, dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[292]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[73]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">num_latent_feats</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">700</span><span class="o">+</span><span class="mi">10</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
@@ -17975,7 +17982,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[240]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_train</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">40000</span><span class="p">)</span>
@@ -18026,7 +18033,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[211]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># How many users can we make predictions for in the test set?</span>
@@ -18046,7 +18053,7 @@ class="
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[211]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[42]:</div>
 
 
 
@@ -18066,7 +18073,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[212]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># How many users in the test set are we not able to make predictions for because of the cold start problem?</span>
@@ -18086,7 +18093,7 @@ class="
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[212]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[43]:</div>
 
 
 
@@ -18106,7 +18113,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[213]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># How many articles can we make predictions for in the test set?</span>
@@ -18126,7 +18133,7 @@ class="
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[213]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[44]:</div>
 
 
 
@@ -18146,7 +18153,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[214]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># How many articles in the test set are we not able to make predictions for because of the cold start problem?</span>
@@ -18166,7 +18173,7 @@ class="
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[214]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[45]:</div>
 
 
 
@@ -18186,7 +18193,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[210]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Replace the values in the dictionary below</span>
@@ -18250,7 +18257,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[241]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Fit SVD on the user_item_train matrix</span>
@@ -18267,7 +18274,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[267]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Use these cells to see how well you can use the training </span>
@@ -18290,11 +18297,10 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[289]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[71]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Iterate through latent features to predict and compare against actual test set</span>
-<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span>
 <span class="n">num_latent_feats</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">700</span><span class="o">+</span><span class="mi">10</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
 <span class="n">sum_errs</span> <span class="o">=</span> <span class="p">[]</span>
 
@@ -18321,7 +18327,46 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[291]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[69]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">accuracy_score</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]])</span><span class="o">.</span><span class="n">flatten</span><span class="p">(),</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]])</span><span class="o">.</span><span class="n">flatten</span><span class="p">())</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[69]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>0.875</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Plot test accuracy and latent features</span>
@@ -18381,8 +18426,14 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>1. When the training and test accuracy are compared, the training accuracy increases for a greater number of latent features while the test accuracy decreases. Using only a few latent features, on the other hand, makes it easier to generate meaningful recommendations for the test set. One possible explanation is that having more latent features leads to overfitting on the training data. Furthermore, due to the small size of the test set and the limited number of shared users, i.e., users who appear in both the training and test sets, the recommendation engine may be unable to provide meaningful recommendations to new users.</strong>
-<strong>2. Alternatively, we could implement an online evaluation of the recommendation engine. Using an A/B test, we can compare the rank-based recommendation engine to the matrix-based. For this, users are grouped in two groups, where group A uses rank-based recommendations, while group B uses matrix-based.</strong></p>
+<ul>
+<li><p><strong>Comparing the training and test accuracy, it can be seen that the training accuracy increases significantly for a greater number of latent features while the test accuracy decreases slightly. This phenomenon could be due to the lack in the current assessment framework's robustness, i.e., the test set is relatively small and only 20 out of 4000 users in the training are also in the test set, which reduces the number of users in our test set for whom we can make predictions significantly. Moreover, an increase in latent features in the training set causes our model to overfit on the training data, but decreases the generalizability of our recommendations. Thus, conclusive results about the model can not be made without a relevant uncertainty.</strong></p>
+</li>
+<li><p><strong>To improve our recommendation model, we might add a user feedback feature to get feedback on the recommendations, i.e., how good any recommended article fits the preferences of the user. This could help to retrain or adjust our model if the model performs poorly based on the user feedback.</strong></p>
+</li>
+<li><p><strong>Alternatively, we could implement an online evaluation of the recommendation engine. Using an A/B test, we can compare the rank-based recommendation engine to the matrix-based. For this, users are grouped in two equally sized groups, where group A uses rank-based recommendations, while group B uses matrix-based. Based on the performances of both approaches, we can assess which method to implement. The users are grouped using an account-based diversion (assuming you have to register before being able to read any article), because we need returning users to stay in the assigned group, even if they are using different pieces of hardware, e.g., phone, computer, to access the platform. An event-based or cookie-based diversion would hinder a correct assignment. As a evaluation metric we could use the number (#) of read articles / # of recommendations, where a read article might be defined as one that was kept open in the browser for a minimum amount of time, e.g., based on the word count in the article and the time distance between opening the specific article and clicking on any other link inside the platform.</strong></p>
+</li>
+</ul>
 
 </div>
 </div>
@@ -18420,11 +18471,11 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[295]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">subprocess</span> <span class="kn">import</span> <span class="n">call</span>
-<span class="n">call</span><span class="p">([</span><span class="s1">'python'</span><span class="p">,</span> <span class="s1">'-m'</span><span class="p">,</span> <span class="s1">'nbconvert'</span><span class="p">,</span> <span class="s1">'Recommendations_with_IBM.ipynb'</span><span class="p">])</span>
+<span class="n">call</span><span class="p">([</span><span class="s1">'jupyter'</span><span class="p">,</span> <span class="s1">'nbconvert'</span><span class="p">,</span> <span class="s1">'--to'</span><span class="p">,</span> <span class="s1">'html'</span><span class="p">,</span> <span class="s1">'Recommendations_with_IBM.ipynb'</span><span class="p">])</span>
 </pre></div>
 
      </div>
@@ -18440,13 +18491,13 @@ class="
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[295]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[51]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>1</pre>
+<pre>0</pre>
 </div>
 
 </div>
