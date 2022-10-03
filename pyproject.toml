@@ -2,7 +2,7 @@
 name = "recommendation-engines"
 version = "0.1.0"
 description = ""
-authors = ["Gianluca Manca <gianluca.manca@de.abb.com>"]
+authors = ["Gianluca Manca <gianluca.manca89@gmail.com>"]
 readme = "README.md"
 packages = [{include = "recommendation_engines"}]
 
